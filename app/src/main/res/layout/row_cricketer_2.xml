@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <EditText
+        android:id="@+id/edit_motor1"
+        android:inputType="numberSigned"
+        android:imeOptions="actionNext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_input"
+        android:hint="*"
+        android:saveEnabled="false"
+        android:maxLength="2"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:layout_gravity="center"
+        android:textSize="26sp"/>
+
+    <EditText
+        android:id="@+id/edit_motor2"
+        android:inputType="numberSigned"
+        android:imeOptions="actionNext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/custom_input"
+        android:hint="*"
+        android:saveEnabled="false"
+        android:maxLength="2"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+
+    <EditText
+        android:id="@+id/edit_time1"
+        android:inputType="time"
+        android:imeOptions="actionNext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_input"
+        android:hint="**:**"
+        android:saveEnabled="false"
+        android:maxLength="5"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_input">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/image_remove"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical"
+        app:srcCompat="@drawable/ic_close">
+    </ImageView>
+
+
+</LinearLayout>

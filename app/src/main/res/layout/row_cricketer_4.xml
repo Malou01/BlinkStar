@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <EditText
+        android:id="@+id/edit_cool1"
+        android:inputType="numberSigned"
+        android:imeOptions="actionNext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_input"
+        android:hint="*"
+        android:saveEnabled="false"
+        android:maxLength="2"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:layout_gravity="center"
+        android:textSize="26sp"/>
+
+    <EditText
+        android:id="@+id/edit_cool2"
+        android:inputType="numberSigned"
+        android:imeOptions="actionNext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/custom_input"
+        android:hint="*"
+        android:saveEnabled="false"
+        android:maxLength="2"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+
+    <EditText
+        android:id="@+id/edit_cool3"
+        android:inputType="time"
+        android:imeOptions="actionNext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_input"
+        android:hint="**:**"
+        android:saveEnabled="false"
+        android:maxLength="5"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edit_cool4"
+        android:inputType="numberSigned"
+        android:imeOptions="actionNext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_input"
+        android:hint="**"
+        android:saveEnabled="false"
+        android:maxLength="3"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="М."
+        android:textAllCaps="false"
+        android:layout_marginEnd="3dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_cool5"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_input"
+        android:hint="**.*"
+        android:saveEnabled="false"
+        android:maxLength="4"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="°C"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/image_remove"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical"
+        app:srcCompat="@drawable/ic_close">
+    </ImageView>
+
+
+</LinearLayout>
